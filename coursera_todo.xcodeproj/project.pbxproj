@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ED8076B23DAEA360066CF73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8076A23DAEA360066CF73 /* AppDelegate.swift */; };
+		5ED8076D23DAEA360066CF73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8076C23DAEA360066CF73 /* SceneDelegate.swift */; };
+		5ED8076F23DAEA360066CF73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8076E23DAEA360066CF73 /* ViewController.swift */; };
+		5ED8077223DAEA360066CF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED8077023DAEA360066CF73 /* Main.storyboard */; };
+		5ED8077423DAEA3C0066CF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED8077323DAEA3C0066CF73 /* Assets.xcassets */; };
+		5ED8077723DAEA3C0066CF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED8077523DAEA3C0066CF73 /* LaunchScreen.storyboard */; };
+		5ED8078223DAEA3D0066CF73 /* coursera_todoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8078123DAEA3D0066CF73 /* coursera_todoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ED8077E23DAEA3D0066CF73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED8075F23DAEA360066CF73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED8076623DAEA360066CF73;
+			remoteInfo = coursera_todo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ED8076723DAEA360066CF73 /* coursera_todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coursera_todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED8076A23DAEA360066CF73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ED8076C23DAEA360066CF73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5ED8076E23DAEA360066CF73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ED8077123DAEA360066CF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ED8077323DAEA3C0066CF73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ED8077623DAEA3C0066CF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5ED8077823DAEA3C0066CF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED8077D23DAEA3D0066CF73 /* coursera_todoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coursera_todoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED8078123DAEA3D0066CF73 /* coursera_todoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursera_todoTests.swift; sourceTree = "<group>"; };
+		5ED8078323DAEA3D0066CF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ED8076423DAEA360066CF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED8077A23DAEA3D0066CF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ED8075E23DAEA360066CF73 = {
+			isa = PBXGroup;
+			children = (
+				5ED8076923DAEA360066CF73 /* coursera_todo */,
+				5ED8078023DAEA3D0066CF73 /* coursera_todoTests */,
+				5ED8076823DAEA360066CF73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED8076823DAEA360066CF73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED8076723DAEA360066CF73 /* coursera_todo.app */,
+				5ED8077D23DAEA3D0066CF73 /* coursera_todoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED8076923DAEA360066CF73 /* coursera_todo */ = {
+			isa = PBXGroup;
+			children = (
+				5ED8076A23DAEA360066CF73 /* AppDelegate.swift */,
+				5ED8076C23DAEA360066CF73 /* SceneDelegate.swift */,
+				5ED8076E23DAEA360066CF73 /* ViewController.swift */,
+				5ED8077023DAEA360066CF73 /* Main.storyboard */,
+				5ED8077323DAEA3C0066CF73 /* Assets.xcassets */,
+				5ED8077523DAEA3C0066CF73 /* LaunchScreen.storyboard */,
+				5ED8077823DAEA3C0066CF73 /* Info.plist */,
+			);
+			path = coursera_todo;
+			sourceTree = "<group>";
+		};
+		5ED8078023DAEA3D0066CF73 /* coursera_todoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ED8078123DAEA3D0066CF73 /* coursera_todoTests.swift */,
+				5ED8078323DAEA3D0066CF73 /* Info.plist */,
+			);
+			path = coursera_todoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ED8076623DAEA360066CF73 /* coursera_todo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED8078623DAEA3D0066CF73 /* Build configuration list for PBXNativeTarget "coursera_todo" */;
+			buildPhases = (
+				5ED8076323DAEA360066CF73 /* Sources */,
+				5ED8076423DAEA360066CF73 /* Frameworks */,
+				5ED8076523DAEA360066CF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coursera_todo;
+			productName = coursera_todo;
+			productReference = 5ED8076723DAEA360066CF73 /* coursera_todo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ED8077C23DAEA3D0066CF73 /* coursera_todoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED8078923DAEA3D0066CF73 /* Build configuration list for PBXNativeTarget "coursera_todoTests" */;
+			buildPhases = (
+				5ED8077923DAEA3D0066CF73 /* Sources */,
+				5ED8077A23DAEA3D0066CF73 /* Frameworks */,
+				5ED8077B23DAEA3D0066CF73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED8077F23DAEA3D0066CF73 /* PBXTargetDependency */,
+			);
+			name = coursera_todoTests;
+			productName = coursera_todoTests;
+			productReference = 5ED8077D23DAEA3D0066CF73 /* coursera_todoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ED8075F23DAEA360066CF73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Muhammad Hashim";
+				TargetAttributes = {
+					5ED8076623DAEA360066CF73 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					5ED8077C23DAEA3D0066CF73 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 5ED8076623DAEA360066CF73;
+					};
+				};
+			};
+			buildConfigurationList = 5ED8076223DAEA360066CF73 /* Build configuration list for PBXProject "coursera_todo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ED8075E23DAEA360066CF73;
+			productRefGroup = 5ED8076823DAEA360066CF73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ED8076623DAEA360066CF73 /* coursera_todo */,
+				5ED8077C23DAEA3D0066CF73 /* coursera_todoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ED8076523DAEA360066CF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED8077723DAEA3C0066CF73 /* LaunchScreen.storyboard in Resources */,
+				5ED8077423DAEA3C0066CF73 /* Assets.xcassets in Resources */,
+				5ED8077223DAEA360066CF73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED8077B23DAEA3D0066CF73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ED8076323DAEA360066CF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED8076F23DAEA360066CF73 /* ViewController.swift in Sources */,
+				5ED8076B23DAEA360066CF73 /* AppDelegate.swift in Sources */,
+				5ED8076D23DAEA360066CF73 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED8077923DAEA3D0066CF73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED8078223DAEA3D0066CF73 /* coursera_todoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ED8077F23DAEA3D0066CF73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED8076623DAEA360066CF73 /* coursera_todo */;
+			targetProxy = 5ED8077E23DAEA3D0066CF73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ED8077023DAEA360066CF73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED8077123DAEA360066CF73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5ED8077523DAEA3C0066CF73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED8077623DAEA3C0066CF73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ED8078423DAEA3D0066CF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ED8078523DAEA3D0066CF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ED8078723DAEA3D0066CF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 628BGA2A6P;
+				INFOPLIST_FILE = coursera_todo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhashim6.coursera-todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ED8078823DAEA3D0066CF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 628BGA2A6P;
+				INFOPLIST_FILE = coursera_todo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhashim6.coursera-todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ED8078A23DAEA3D0066CF73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 628BGA2A6P;
+				INFOPLIST_FILE = coursera_todoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhashim6.coursera-todoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coursera_todo.app/coursera_todo";
+			};
+			name = Debug;
+		};
+		5ED8078B23DAEA3D0066CF73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 628BGA2A6P;
+				INFOPLIST_FILE = coursera_todoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mhashim6.coursera-todoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coursera_todo.app/coursera_todo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ED8076223DAEA360066CF73 /* Build configuration list for PBXProject "coursera_todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED8078423DAEA3D0066CF73 /* Debug */,
+				5ED8078523DAEA3D0066CF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED8078623DAEA3D0066CF73 /* Build configuration list for PBXNativeTarget "coursera_todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED8078723DAEA3D0066CF73 /* Debug */,
+				5ED8078823DAEA3D0066CF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED8078923DAEA3D0066CF73 /* Build configuration list for PBXNativeTarget "coursera_todoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED8078A23DAEA3D0066CF73 /* Debug */,
+				5ED8078B23DAEA3D0066CF73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ED8075F23DAEA360066CF73 /* Project object */;
+}
