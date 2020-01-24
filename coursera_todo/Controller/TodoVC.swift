@@ -17,16 +17,26 @@ class TodoVC: UIViewController {
     private var todos = [Todo]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        NetworkService.shared.getTodos{items in
+        NetworkService.shared.getTodos( {items in
             self.todos = items
             self.todosTable.reloadData()
-        }
+        }, {err in
+            debugPrint(err)
+            
+        })
         todosTable.delegate = self
         todosTable.dataSource = self
     }
     
     
     @IBAction func addTodo(_ sender: Any) {
+        let todo = Todo(item: todoField.text ?? "", priority: prioritySegment.selectedSegmentIndex)
+        NetworkService.shared.addTodo(todo: todo, { (items) in
+            self.todos = items
+            self.todosTable.reloadData()
+        }) { (err) in
+            debugPrint(err)
+        }
     }
 }
 extension TodoVC : UITableViewDelegate, UITableViewDataSource {
